@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web Storage</title>
+    <meta charset="utf-8">
+    <meta name="viwport" content="width=device-width, user-scalable=no, inicial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/almacenamiento.css">
+</head>
+
+<body>
+    <div class="padre">
+        <header class="header">
+            <div class="menu margen-interno">
+                <div class="logo">
+                    <a href="index.html">Hon@ki Soluciones Informáticas</a>
+                </div>
+                <div class="nav">
+                    <a href="index.html"><span class="icon-home"></span>Inicio</a>
+                    <a href="sobre-nosotros.html"><span class="icon-users"></span>Servicios</a>
+                    <a href="galeria.html"><span class="icon-camera"></span>Galeria</a>
+                    <a href="animacion.html"><span class="icon-home"></span>animación</a>
+                    <a href="canvas.html"><span class="icon-phone"></span>Canvas</a>
+                    <a href="web-storage.html"><span class="icon-phone"></span>app storage</a>
+                    <a href="contacto.html"><span class="icon-phone"></span>Contacto</a>
+                </div>
+                <div class="social">
+                    <div><a href="https://www.facebook.com/Honaki-489824541522243"><span class="icon-facebook"></span></a></div>
+                </div>
+            </div>
+            <div class="texto-principal margen-interno">
+                <h1>Brindamos soluciones informáticas integrales de alta calidad tecnológica. Desde 2018 trabajamos con nuestros clientes en la automatización de sus procesos, acompañándolos en su crecimiento y asesorándolos para lograr su máximo potencial.
+                    Somos expertos en software a la medida para todo tipo de empresas y organizaciones, siendo nuestra experiencia principal el desarrollo de sistemas para la gestión pública.</h1>
+            </div>
+        </header>
+        <div id="contenedor">
+            <form id="formulario">
+                <input type="number" id="id" placeholder="N° de Id"><br>
+                <select id="nivel">
+                   <option placeholder="Elige el trabajo que necesita"></option>
+                   <option value="Reparación">Reparación</option>
+                   <option value="Desarrollo web">Desarrollo web</option>
+                   <option value="Redes">Redes</option>
+               </select><br>
+                <textarea id="tarea"></textarea><br>
+                <input type="date" id="fecha"><br>
+                <input type="button" id="grabar" value="Grabar">
+            </form>
+        </div>
+        <section id="zonadatos">
+
+            A la espera de la lectura
+
+        </section>
+    </div>
+    <footer class="footer margen-interno">
+        <nav class="pie">
+            <a href="#">Desarrollado por Hon@ki Soluciones Informáticas</a>
+        </nav>
+    </footer>
+    </div>
+    <script type="text/javascript" src="js/storage.js"></script>
+
+</html>

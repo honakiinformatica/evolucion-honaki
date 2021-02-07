@@ -1,0 +1,55 @@
+rect#pc{
+   transform: translate3d(0, 20%, 0);
+   animation: levitate 4s ease-in-out infinite alternate;
+}
+
+@keyframes levitate {
+	100% {
+		transform: translate3d(0, -8%, 0);
+	}
+}
+
+rect#hdmi{
+	 transform: translate3d(0, 20%, 0);
+   animation: levitate 4s ease-in-out infinite alternate;
+}
+
+@keyframes levitate {
+	100% {
+		transform: translate3d(0, -8%, 0);
+	}
+}
+
+rect#hdmi1{
+	 transform: translate3d(0, 20%, 0);
+   animation: levitate 4s ease-in-out infinite alternate;
+}
+
+@keyframes levitate {
+	100% {
+		transform: translate3d(0, -8%, 0);
+	}
+}
+
+rect#lector{
+	 transform: translate3d(0, 20%, 0);
+   animation: levitate 4s ease-in-out infinite alternate;
+}
+
+@keyframes levitate {
+	100% {
+		transform: translate3d(0, -8%, 0);
+	}
+}
+
+circle#boton{
+	 transform: translate3d(0, 20%, 0);
+   animation: levitate 4s ease-in-out infinite alternate;
+}
+
+@keyframes levitate {
+	100% {
+		transform: translate3d(0, -8%, 0);
+	}
+}	
+
